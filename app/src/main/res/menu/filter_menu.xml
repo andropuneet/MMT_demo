@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_by_price"
+        android:orderInCategory="100"
+        android:title="Sort By Price"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_by_time"
+        android:orderInCategory="200"
+        android:title="Sort By Departure Time"
+        app:showAsAction="never" />
+</menu>
